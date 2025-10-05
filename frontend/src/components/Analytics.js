@@ -38,7 +38,7 @@ const Analytics = () => {
 
   const fetchLabels = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/labels');
+      const res = await axios.get('https://safetysnap-43yb.onrender.com/api/labels');
       setLabels(res.data);
     } catch (err) {
       console.error(err);
@@ -47,7 +47,7 @@ const Analytics = () => {
 
   const fetchAnalytics = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/images', {
+      const res = await axios.get('https://safetysnap-43yb.onrender.com/api/images', {
         params: {
           label: selectedLabel,
         },
