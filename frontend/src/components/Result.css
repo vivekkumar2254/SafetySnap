@@ -1,0 +1,26 @@
+.result-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-card {
+  position: relative;
+}
+
+.detection-box {
+  position: absolute;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.details-card .list-group-item {
+  background-color: #f8f9fa;
+}
+
+.detections-card .badge {
+  font-size: 0.9rem;
+}

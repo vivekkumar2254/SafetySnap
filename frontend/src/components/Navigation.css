@@ -1,0 +1,21 @@
+.navbar {
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}

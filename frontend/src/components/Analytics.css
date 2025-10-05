@@ -1,0 +1,14 @@
+.analytics-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-form .form-control {
+  border-radius: 20px;
+}
+
+.chart-card {
+  padding: 20px;
+}

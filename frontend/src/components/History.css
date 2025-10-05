@@ -1,0 +1,43 @@
+.history-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-form .form-control {
+  border-radius: 20px;
+}
+
+.filter-form .btn {
+  border-radius: 20px;
+}
+
+.image-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.image-card .btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.image-card .btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.modal-image {
+  max-height: 80vh;
+  width: auto;
+}
